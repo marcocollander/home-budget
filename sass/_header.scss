@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 36px;
+
+  &__logo {
+    padding: 20px 60px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px black;
+  }
+}
