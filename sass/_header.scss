@@ -12,3 +12,52 @@
     text-shadow: 2px 2px 2px black;
   }
 }
+
+.incomes {
+  background-color: aqua;
+  &__heading {
+    padding: 10px;
+    font-size: 2.6rem;
+  }
+
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  &__input {
+    font-size: 1.6rem;
+  }
+
+  &__sum {
+    font-size: 1.6rem;
+  }
+}
+
+.expenses {
+  background-color: aqua;
+  &__heading {
+    font-size: 2.6rem;
+  }
+
+  &__inputs {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__input {
+    font-size: 1.6rem;
+  }
+
+  &__sum {
+    font-size: 1.6rem;
+  }
+}
+
+.add-btn {
+  padding: 2px 20px;
+  font-size: 1.6rem;
+  border: none;
+}

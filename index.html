@@ -19,27 +19,31 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <div id="incomes" class="incomes">
+        <section id="incomes" class="incomes">
           <h2 class="incomes__heading">Przychody</h2>
-          <input type="text" id="nameIncome" placeholder="Nazwa przychodu">
-          <input type="number" id="amountIncome" placeholder="Kwota">
-          <button id="addIncome" class="addBtn">Dodaj</button>
-        </div>
+          <div class="incomes__inputs">
+            <input class="incomes__input" type="text" id="nameIncome" placeholder="Nazwa przychodu">
+            <input class="incomes__input" type="number" id="amountIncome" placeholder="Kwota">
+            <button id="addIncome" class="add-btn">Dodaj</button>
+          </div>
+        </section>
+
         <ul id="incomesList"></ul>
-        <div id="incomesSum" class="incomes__sum">Suma przychodów</div>
+        <p id="incomesSum" class="incomes__sum">Suma przychodów: <span>0 zł</span></p>
       </div>
 
       <div class="col">
-        <div id="expenses" class="expenses">
+        <section id="expenses" class="expenses">
           <h2 class="expenses__heading">Wydatki</h2>
-          <input type="text" id="expenseName" placeholder="Nazwa wydatku">
-          <input type="text" id="amountExpense"
-            placeholder="Kwota">
-          <span onclick="newExpenseList()" class="addBtn">Dodaj</span>
-        </div>
+          <div class="expenses__inputs">
+            <input class="expenses__input" type="text" id="expenseName" placeholder="Nazwa wydatku">
+            <input class="expenses__input" type="text" id="amountExpense" placeholder="Kwota">
+            <button class="add-btn">Dodaj</span>
+          </div>
+        </section>
 
-        <ul id="listaWydatkow"></ul>
-        <div class="suma1">łącznie wydatki</div>
+        <ul id="expensesList"></ul>
+        <p class="expenses__sum">Suma wydatków: <span>0 zł</span></p>
       </div>
     </div>
   </div>
