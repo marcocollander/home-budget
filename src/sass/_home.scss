@@ -1,20 +1,48 @@
-.header {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-  font-size: 36px;
+.incomes {
+  background-color: aqua;
 
-  &__logo {
-    padding: 20px 60px;
-    border-radius: 5px;
-    background-color: aquamarine;
-    letter-spacing: 3px;
-    text-shadow: 2px 2px 2px black;
+  &__heading {
+    padding: 10px;
+    font-size: 2.6rem;
+  }
+
+  &__inputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+
+  &__input {
+    font-size: 1.6rem;
+  }
+
+  &__list {
+    li {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1.6rem;
+
+      button {
+        padding: 5px 15px;
+        border-radius: 2px;
+
+        &:nth-child(2) {
+          margin-left: -100px;
+        }
+      }
+    }
+  }
+
+  &__sum {
+    font-size: 1.6rem;
   }
 }
 
-.incomes {
+.expenses {
   background-color: aqua;
+
   &__heading {
     padding: 10px;
     font-size: 2.6rem;
@@ -25,26 +53,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-  }
-
-  &__input {
-    font-size: 1.6rem;
-  }
-
-  &__sum {
-    font-size: 1.6rem;
-  }
-}
-
-.expenses {
-  background-color: aqua;
-  &__heading {
-    font-size: 2.6rem;
-  }
-
-  &__inputs {
-    display: flex;
-    justify-content: center;
   }
 
   &__input {
