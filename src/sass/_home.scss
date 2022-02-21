@@ -14,19 +14,24 @@
   }
 
   &__input {
+    padding: 5px;
     font-size: 1.6rem;
   }
 
   &__list {
+    background-color: #888;
+
     li {
       display: flex;
       justify-content: space-around;
       align-items: center;
       font-size: 1.6rem;
+      padding: 10px;
 
       button {
         padding: 5px 15px;
-        border-radius: 2px;
+        border: none;
+        border-radius: 3px;
 
         &:nth-child(2) {
           margin-left: -100px;
@@ -65,7 +70,8 @@
 }
 
 .add-btn {
-  padding: 2px 20px;
+  padding: 8px 20px;
   font-size: 1.6rem;
   border: none;
+  border-radius: 5px;
 }
